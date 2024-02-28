@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+}
+
+.ValidationError {
+  padding: 0px;
+  margin: 0px;
+  color: red;
+  font-size: x-small;
+}
+
+.BodyLogin {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Register, .Login {
+  height: 70%px;
+  border: solid 2px  black;
+  padding: 5%;
+}
+
+.btn {
+  margin-top: 4%;
+  height: 30px;
+  width: 150px;
+  background-color: aqua;
+}
+
+.btnBacklog {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.btnInProgress {
+  background-color: green;
+  border-radius: 10px;
+}
+
+.btnCompleted {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.ProjectContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.BodyContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Backlog > .Header {
+  background-color: blue;
+}
+
+.InProgress > .Header {
+  background-color: yellowgreen;
+}
+
+.Completed > .Header {
+  background-color: green;
+}
+
+.Item {
+  border: 2px, solid,black;
+  background-color: rgb(243, 239, 239);
+  margin: 2%;
+  padding: 1%;
+}
+
+.HeaderCreate {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.HeaderCreate > .Btn {
+  margin-right: 10px;
+  background-color: white;
+}
+
+
+.BodyCreate {
+  width: 60%;
+  border: 1px black solid;
+  margin-left: 10%;
+  padding: 2%;
+}
